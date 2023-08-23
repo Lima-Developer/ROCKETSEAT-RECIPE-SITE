@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #EAEAEA;
+  margin: 2rem 9.2rem;
+}
+
+header,
+main, 
+article{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+header{
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  font-size: 28px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+main{
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+article{
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+footer{
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+main img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  height: 420px;
+  width: 95%;
+  margin-left: 3.25rem;
+}
+
+main figure{
+  text-align: end;
+  padding-right: 3.25rem;
+}
+
+.ingredients{
+  padding-top: 1rem;
+}
+
+.ingredients ul{
+  font-size: 16px;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  line-height: 26px;
+}
+.ingredients h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+.preparing{
+  padding-top: 1rem;
+}
+
+.preparing ol{
+  padding-left: 4rem;
+  line-height: 26px;
+  padding-top: 1rem;
+  text-align: justify;
+  font-size: 16px;
+  padding-right: 3rem;
+}
+
+.preparing h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+.add{
+  padding-top: 1rem;
+}
+
+.add h3{
+  text-align: center;
+}
+
+.add p{
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.outbox{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+.outbox span{
+  color: #3c1a7d;
+  font-size: 18px;
+}
+
+.social-links{
+  padding-top: 1rem;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.social-links a{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.social-links a:hover{
+  background: #adb5bd;
+}
